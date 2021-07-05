@@ -1,3 +1,30 @@
-.first-part{
+body{
     font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.first-part{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    }
+.half-width{
+    margin-left: 100px;
+    width: 50%;
+}
+.half-width img{
+   width: 80%;
+}
+.orange{
+    color: orangered;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(blue,skyblue);
+    font-weight: 700;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 10px;
 }
