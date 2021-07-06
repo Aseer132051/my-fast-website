@@ -5,8 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .flex-part{
     display: flex;
+    margin-bottom: 100px;
     }
     .top-banner{
         background-image: url(images/top-banner.png);
@@ -20,7 +24,7 @@ h1{
     }
 .half-width{
      margin-left: 100px;
-    width: 50%;
+     width: 50%;
    /*padding-left: 5%;*/
 }
 .half-width img{
@@ -36,4 +40,32 @@ h1{
     padding: 10px 40px;
     color: white;
     border-radius: 10px;
+}
+.exp-content{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 10px;
+   border-radius: 20px;
+}
+.full-web{
+    border-left:10px solid ;
+    border-image:linear-gradient(red,orange) ;
+    border-image-slice: 1;
+}
+.baby-web{
+    border-left:10px solid ;
+    border-image:linear-gradient(rgb(76, 0, 255),rgb(0, 183, 255)) ;
+    border-image-slice: 1;
+}
+.left-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.left-banner h1{
+    margin-left: 100px;
+}
+footer p{
+text-align: center;
 }
